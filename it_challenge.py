@@ -1,3 +1,5 @@
+__author__ = 'ldoucett'
+
 import json
 import logging
 import requests
