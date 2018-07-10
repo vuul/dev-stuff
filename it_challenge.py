@@ -22,7 +22,7 @@ log.addHandler(hdlr)
 log.setLevel(logging.INFO)
 
 #========== This could be moved into the settings ==========#
-ERROR = {"response_type": "ephemeral","text": "Sorry, that didn't work. Please try again."}
+ERROR = { 'response_type': 'ephemeral', 'text': 'Sorry, that didn\'t work. Please try again.'}
 URLS = { 'apple': { 'url':'https://api.iextrading.com/1.0/stock/aapl/batch?types=quote', 
                     'response_key': ['quote', 'latestPrice'],
                     'slack_data': '{"text": "AAPL: $%s"}' }, 
